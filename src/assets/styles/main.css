@@ -24,7 +24,7 @@ html, body {
     padding: 1rem 0 ;
 }
 .sidebar{
-    width: 12%;
+    width: 15%;
     position: fixed;
     left: 0;
     top: 0;
@@ -81,8 +81,8 @@ html, body {
 .navbar{
     display: flex;
     justify-content: end;
-    margin-left: 14%;
-    width: calc(100% - 14%);
+    margin-left: 16%;
+    width: calc(100% - 16%);
     margin-top: 2%;
 }
 .navbar .menu{
@@ -361,8 +361,8 @@ ul li{
     border-radius: 100%;
 }
 .content{
-    margin-left: 14%;
-    width: calc(100% - 14%);
+    margin-left: 16%;
+    width: calc(100% - 16%);
 }
 
 
