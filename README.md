@@ -1,4 +1,4 @@
-# crm
+# CRM 🚀 
 ## Tech
 ```
 Build on vue and pure css ( not bootstrap or tailwind )
