@@ -1,8 +1,7 @@
 <template>
-  <div class="sidebar">
-    <div class="logo">
-        <b>CRM.io</b>
-    </div>
+  <div class="sidebar" :class="{'active':menuOpen}">
+    <span class="material-symbols-outlined close-icon"  @click="menuOpen=!menuOpen">close</span>
+    <div class="logo"><b>CRM.io</b></div>
     <ul class="menu">
       <li><a href="" class="active"><span class="material-symbols-outlined">dashboard</span>Documents</a></li>
       <li>
@@ -34,17 +33,13 @@
 <script>
 export default {
   name: "TheSidebar",
-  props: ['menuActive'],
+  props: ['menuOpen'],
   data: function () {
     return {
-
+      isMenuClosed:''
     }
   },
-  methods: {
-    menuOpen: function (e) {
-      console.log(e);
-    },
-  }
+
 }
 </script>
 

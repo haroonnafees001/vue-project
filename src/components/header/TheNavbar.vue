@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <span class="material-symbols-outlined ml-10 icon" @click="menuOpen">menu</span>
+    <span class="material-symbols-outlined menu" @click="menuOpen">menu</span>
     <ul class="navbar-wrap">
         <li>
           <span class="material-symbols-outlined">notifications</span>
