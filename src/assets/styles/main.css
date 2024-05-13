@@ -59,7 +59,7 @@ html, body {
     display: block;
     text-decoration: none;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 13px;
 }
 .sidebar ul li a:hover,
 .sidebar ul li a.active{

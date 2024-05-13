@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: "widget",
+  name: "SideWidget",
   props: ['obj'],
   data: function () {
     return {

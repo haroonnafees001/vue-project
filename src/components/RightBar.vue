@@ -1,12 +1,12 @@
 <template>
   <div class="card">
-    <widget v-if="objProduct" :obj="objProduct"/>
-    <widget v-if="objChat" :obj="objChat"/>
+    <Widget v-if="objProduct" :obj="objProduct"/>
+    <Widget v-if="objChat" :obj="objChat"/>
   </div>
 </template>
 
 <script>
-import Widget from "./widget";
+import Widget from "./SideWidget";
 
 export default {
   name: "RightBar",
