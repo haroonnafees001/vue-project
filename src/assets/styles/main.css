@@ -366,7 +366,7 @@ ul li{
 }
 
 
-
+.sidebar .close-icon,
 .navbar .menu{
     display:none;
 }
@@ -381,6 +381,7 @@ ul li{
         justify-content: space-between;
 
     }
+    .sidebar .close-icon,
     .navbar .menu{
         display: block;
     }
