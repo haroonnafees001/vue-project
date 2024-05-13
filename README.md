@@ -21,6 +21,3 @@ npm run build
 Node >= 12
 ```
 
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
