@@ -1,5 +1,10 @@
 # crm
-
+## Tech
+```
+Build on vue and pure css ( not bootstrap or tailwind )
+For graph : https://vue-chartjs.org/guide/#integration
+For Icons and Font: Google icon
+```
 ## Project setup
 ```
 npm install
