@@ -15,10 +15,12 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Node Version
+
 ```
-npm run lint
+Node >= 12
 ```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
