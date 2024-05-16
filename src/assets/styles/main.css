@@ -78,6 +78,13 @@ html, body {
     font-size: 40px;
 }
 /*HELPER CLASS*/
+
+.scroll-area {
+    position: relative;
+    margin: auto;
+    max-height: calc( 100vh - 200px);
+}
+
 .navbar{
     display: flex;
     justify-content: end;
